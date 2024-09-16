@@ -1,23 +1,17 @@
-<div id="top"></div>
+# ReactJS Portfolio
 
-<div align="center">
-
-  <h2 align="center">My Portfolio</h2>
-
-
-</div>
-
+This is my personal portfolio website built using ReactJS. It showcases my skills, projects, and experience as a developer.
 
 ## Tools Used
+- **React** – A JavaScript library for building user interfaces
+- **React Router** – For navigation within the app
+- **Git** – Version control
+- **NPM** – Package manager
 
-## Project Run
-1. Install dependencies
+## Project Setup
 
-   ```sh
-   npm install
-   ```
-2. Run on localserver
-
-   ```sh
-   npm start
-   ```
+### 1. Install dependencies
+Run the following command to install all required dependencies:
+```bash
+npm install
+npm start
