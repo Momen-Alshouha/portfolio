@@ -3,7 +3,7 @@ const SkillCard = ({ softSkills, tools, children }) => {
     <div
       data-aos-easing="ease-in-out"
       data-aos="zoom-in"
-      className="flex flex-col items-center rounded-2xl bg-darkPrimary py-6 px-4"
+      className="flex flex-col items-center rounded-2xl py-6 px-4"
     >
       {children}
       <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-10 py-4 md:py-6">
