@@ -50,7 +50,10 @@ function addEffectWriting(element, time) {
           className="py-1 text-5xl font-black text-primary md:text-7xl hidden md:inline"
           text="omen Alshouha"
         />
-        <h2 className="mt-40 py-1 text-2xl font-bold md:m-0 md:text-3xl">
+        <h2 className="my-name block md:hidden mt-36 py-1 text-4xl font-bold md:m-0 md:text-3xl">
+         Mo'men Alshouha
+        </h2>
+        <h2 className="mt-2 py-1 text-2xl font-bold md:text-3xl">
           Software Engineer | Full Stack Developer
         </h2>
         <p className="text-l py-1 md:w-3/4">

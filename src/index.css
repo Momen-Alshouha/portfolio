@@ -18,3 +18,7 @@ html {
 .tool-icon-technical-skill {
   width: 80px;
 }
+
+.my-name {
+  color: rgb(173 0 255 / var(--tw-text-opacity))
+}
