@@ -13,6 +13,10 @@ const Experience = () => {
     "Integrate HTTP services to communicate with APIs and fetch or send data asynchronously, handling requests, responses, and errors effectively.",
   ];
 
+  var aspireDescription = [
+    "Designed, optimized, and maintained the databases supporting WAY4' transaction processing systems, ensuring high availability and performance for payment processing and financial services.",
+  ];
+
   var blueRayDescription = [
     "Design and develop user-friendly, responsive front-end interfaces that provide an intuitive user experience across various devices and browsers.",
     "Develop and maintain robust back-end functionalities, ensuring efficient data management and dynamic website interactions.",
@@ -25,7 +29,7 @@ const Experience = () => {
       id="experience"
       className="align-center mx-auto flex flex-col justify-center gap-8 p-0 text-center sm:p-4 md:items-center  md:justify-between lg:max-w-7xl"
     >
-      <img className="w-40 m-auto" src={blob} alt="blob" />
+      <img className="m-auto w-40" src={blob} alt="blob" />
       <h1 className="py-6 text-3xl font-bold text-primary md:text-4xl ">
         Experience
       </h1>
@@ -40,11 +44,19 @@ const Experience = () => {
       />
 
       <ExperienceCard
-        name="Abdul-Latif Jamil Technology - MOTORY"
+        name="MOTORY"
         Link={"https://jo.motory.com/en/"}
-        title="Font-End Web Developer"
-        duration="Nov. 2023 - April. 2024"
+        title="Font-End Developer"
+        duration="Jan. 2024 - April. 2024"
         skills={motoryDescription}
+      />
+
+      <ExperienceCard
+        name="Aspire IT Services"
+        Link={"https://aspire.jo/"}
+        title="Database Developer"
+        duration="Nov. 2023 - Dec. 2023"
+        skills={aspireDescription}
       />
 
       <ExperienceCard
@@ -74,7 +86,7 @@ const Experience = () => {
           "Full stack web development training focused on web development technologies encompassing HTML , CSS , JavaScript , Angular , C# , .Net Framework and MS Sql Server.",
         ]}
       />
-      <img className="w-40 m-auto" src={blob} alt="blob" />
+      <img className="m-auto w-40" src={blob} alt="blob" />
       <h1 className="py-6 text-3xl font-bold text-primary md:text-4xl ">
         Education
       </h1>
