@@ -13,10 +13,6 @@ const Experience = () => {
     "Integrate HTTP services to communicate with APIs and fetch or send data asynchronously, handling requests, responses, and errors effectively.",
   ];
 
-  var aspireDescription = [
-    "Designed, optimized, and maintained the databases supporting WAY4' transaction processing systems, ensuring high availability and performance for payment processing and financial services.",
-  ];
-
   var blueRayDescription = [
     "Design and develop user-friendly, responsive front-end interfaces that provide an intuitive user experience across various devices and browsers.",
     "Develop and maintain robust back-end functionalities, ensuring efficient data management and dynamic website interactions.",
@@ -47,16 +43,8 @@ const Experience = () => {
         name="MOTORY"
         Link={"https://jo.motory.com/en/"}
         title="Font-End Developer"
-        duration="Jan. 2024 - April. 2024"
+        duration="Nov. 2023 - April. 2024"
         skills={motoryDescription}
-      />
-
-      <ExperienceCard
-        name="Aspire IT Services"
-        Link={"https://aspire.jo/"}
-        title="Database Developer"
-        duration="Nov. 2023 - Dec. 2023"
-        skills={aspireDescription}
       />
 
       <ExperienceCard
