@@ -2,10 +2,6 @@
 
 This is my personal portfolio website built using ReactJS. It showcases my skills, projects, and experience as a developer.
 
-## Screenshot
-
-![Portfolio Screenshot](./website-screen-shot/screenshot-portfolio.png)
-
 ## Tools Used
 - **React** – A JavaScript library for building user interfaces
 - **React Router** – For navigation within the app
